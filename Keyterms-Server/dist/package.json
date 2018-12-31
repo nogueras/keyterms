@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./app/app.js",
-    "test": "NODE_ENV=TEST mocha -R spec --timeout 5000",
+    "test": "NODEx_ENV=TEST mocha -R spec --timeout 5000",
     "single-test": "NODE_ENV=TEST mocha -R spec  ./test/$FILE --timeout 5000 || :",
     "single-test-example": "FILE=\"01-server.js\" npm run single-test || :",
     "mocha": "NODE_ENV=TEST mocha -R spec $FILE || :",
