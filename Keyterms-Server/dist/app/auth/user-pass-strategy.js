@@ -69,7 +69,7 @@ exports.deserializeUser = function (req, username, done) {
     log.debug('deserializingUser: ' + username);
 
     var next = function (user) {
-		log.debug('Successfully deseralized: ' + user.username);
+		log.debug('Successfully deserialized: ' + user.username);
 		done(null, user);
     };
 
